@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{20af9f74-8c2d-4cfe-b7d8-0f4a100d54af}">
+		<property name="volume">
+			<value>10</value>
+		</property>
+		<property name="name">
+			<value>Collision</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{93f0ada8-bae7-40ea-85d3-bf0c9c73a9e1}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7c1fa794-4a88-41c9-9efd-04018d4024c2}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{719fe463-178b-4e46-9813-22c61da87339}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{93f0ada8-bae7-40ea-85d3-bf0c9c73a9e1}">
+		<relationship name="effects">
+			<destination>{c75170bb-eb90-4cf0-9467-4056857a122f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7c1fa794-4a88-41c9-9efd-04018d4024c2}" />
+	<object class="MixerBusFader" id="{c75170bb-eb90-4cf0-9467-4056857a122f}" />
+</objects>
