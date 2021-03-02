@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{92344259-5a29-439b-92c1-9d8483c9901d}">
+		<property name="assetPath">
+			<value>SFX_Clicks&amp;clacks_WOOD_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.24479166666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b76adf14-3130-4ce3-8b94-32a884339167}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{cd1696b0-d3ac-4d1f-841f-9e3a9b374770}">
+		<property name="name">
+			<value>Ball Roll Velocity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5dc90e53-b89c-497f-8149-540331fbfaa0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5466abf1-4b93-4645-8ace-80bcb5833ab1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5466abf1-4b93-4645-8ace-80bcb5833ab1}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

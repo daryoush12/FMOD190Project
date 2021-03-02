@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{5bb21280-390a-44fb-97df-41bc4a3aa96c}">
+		<property name="assetPath">
+			<value>fan_ceiling_02_running_loop.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.9410657596371887</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b76adf14-3130-4ce3-8b94-32a884339167}</destination>
+		</relationship>
+	</object>
+</objects>

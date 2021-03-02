@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{f9bba7c2-cde0-4da9-bb91-037a3d196abc}">
 		<property name="name">
 			<value>shoot</value>
@@ -30,6 +30,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{32cf43e0-68c9-4021-a27b-6abc976ad1ee}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{eec04bed-ee29-4640-aafa-ffacac741ff2}</destination>
+			<destination>{5f08ea0b-3f92-4c64-a479-b023965bb419}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{e8d85920-4550-4e1e-adc1-a5a082688645}">
@@ -69,6 +73,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{316307a7-4293-4126-871e-be5df49cea59}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{617ecb72-37d8-4c16-802c-f9191712d54f}</destination>
 		</relationship>
