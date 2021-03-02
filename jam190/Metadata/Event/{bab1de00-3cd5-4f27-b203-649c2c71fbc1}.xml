@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{bab1de00-3cd5-4f27-b203-649c2c71fbc1}">
+		<property name="note" />
 		<property name="name">
 			<value>Ball_Roll_Speed_Parameter</value>
 		</property>
@@ -212,6 +213,7 @@
 			<destination>{c401603f-68e2-437a-bc49-611378964542}</destination>
 			<destination>{0a4465fe-fe79-40df-b0fd-18aa3367f3f0}</destination>
 			<destination>{7d967c36-dd7b-49a0-a99d-de15ed97d721}</destination>
+			<destination>{ec97795c-696e-483c-9488-093afde668da}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a5e748d5-5a2e-4d49-808d-c0cb10fe8fe1}" />
@@ -222,18 +224,18 @@
 	</object>
 	<object class="AutomationPoint" id="{c401603f-68e2-437a-bc49-611378964542}">
 		<property name="position">
-			<value>0.5</value>
+			<value>0.54000000000000004</value>
 		</property>
 		<property name="value">
-			<value>6.5</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{0a4465fe-fe79-40df-b0fd-18aa3367f3f0}">
 		<property name="position">
-			<value>0.080000000000000002</value>
+			<value>0.26000000000000001</value>
 		</property>
 		<property name="value">
-			<value>6.5</value>
+			<value>-5</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.0241744723</value>
@@ -241,13 +243,24 @@
 	</object>
 	<object class="AutomationPoint" id="{7d967c36-dd7b-49a0-a99d-de15ed97d721}">
 		<property name="position">
-			<value>0</value>
+			<value>0.01</value>
 		</property>
 		<property name="value">
-			<value>6.5</value>
+			<value>-80</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.461157382</value>
+			<value>-0.901233196</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{ec97795c-696e-483c-9488-093afde668da}">
+		<property name="position">
+			<value>0.12889983253257339</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.639528394</value>
 		</property>
 	</object>
 	<object class="Automator" id="{a3a3e884-e894-420b-b71e-57b0c566d445}">
